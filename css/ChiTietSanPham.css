@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+/****************------------------------header--------------------------****************/
+header {
+    height: 95px;
+}
+header .logo {
+    float: left;
+    font-size: 25px;
+    margin: 15px 50px;
+}
+header .timkiem {
+    float: left;
+    margin: 23px 70px 0px 100px;
+}
+header .timkiem input {
+    padding-left: 20px;
+    padding-right: 15px;
+    width: 550px;
+    height: 50px;
+}
+header .timkiem button {
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+header .timkiem button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+header .giohang {
+    font-size: 60px;
+    padding: 12px 130px 0px 50px;
+    float: left;
+}
+header .giohang a i{
+    color: black;
+}
+header .username {
+    font-size: 60px;
+    padding: 15px 50px;
+}
+header .username a i{
+    color: black;
+}
+header .username:hover {
+    cursor: pointer; /* con tro ban tay */
+}
+/****************------------------------nav--------------------------****************/
+nav {
+    clear: both;
+    background-color: #44B4F3;
+    height: 75px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 25px 70px;
+    transition: .5s;
+}
+nav ul li:hover {
+    transform: scale(1.3);
+}
+nav ul li #home{
+    font-size: 30px;
+    transition: .5s;
+}
+nav ul li #home:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+nav ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+/****************------------------------article--------------------------****************/
+article {
+    width: 100%;
+    height: 1450px;
+    background-color: #D9D9D9;
+    display: grid; 
+    place-items: center; /* can giua */
+}
+article .backgroud{
+    width: 1340px;
+    height: 1370px;
+    background-color: white;
+}
+article .backgroud .img {
+    margin: 55px 0px 0px 70px;
+    float: left;
+}
+article .backgroud .thongtin {
+    width: 430px;
+    margin: 20px 0px;
+    padding: 0px 30px 0px 50px;
+}
+article .backgroud .tensp h2 {
+    font-size: 40px;
+    float: left;
+    margin: 70px 0px 0px 81px;
+}
+article .backgroud .giatien {
+    float: left;
+    display: grid;
+    place-items: center;
+    width: 255px;
+    height: 51px;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 15px 0px 0px 81px;
+}
+article .backgroud .giatien:hover {
+    cursor: pointer;
+}
+article .backgroud #giatien_1 {
+    margin: 63px 0px 0px 81px;
+    background-color: #C7C7C7;
+}
+article .backgroud #giatien_2 {
+    margin: 63px 0px 0px 15px;
+}
+article .backgroud #giatien_3 {
+    width: 299px;
+    height: 51px;
+}
+article .backgroud .giamua {
+    width: 600px;
+    height: 150px;
+    background-color: #D9D9D9;
+    float: right;
+    border-radius: 10px;
+    margin: 40px 150px 0px 0px;
+}
+article .backgroud .giamua .muangay {
+    margin: 10px 0px 0px 100px;
+    float: left;
+}
+article .backgroud .giamua .muangay p{
+    color: red;
+    font-size: 32px;
+    margin: 10px 0px 0px -35px;
+}
+article .backgroud .giamua .muangay #del {
+    color: gray;
+    font-size: 20px;
+    margin: 10px 0px 0px -15px;
+    clear: both;
+}
+u {
+    font-size: 90%;
+}
+article .backgroud .giamua hr {
+    transform: rotate(90deg);
+    background-color: black;
+    width: 50px;
+    float: left;
+}
+article .backgroud .giamua #hr1 {
+    float: left;
+    margin: 25px 0px 0px 30px;
+}
+article .backgroud .giamua #hr2 {
+    float: left;
+    margin: 123px 0px 0px -50px;
+}
+article .backgroud .giamua p {
+    float: left;
+    margin: 60px 0px 0px -45px;
+}
+article .backgroud .tratruoc {
+    float: right;
+}
+article .backgroud .tratruoc h1{
+    margin: 10px 70px 0px 0px;
+}
+article .backgroud .giamua .tratruoc p{
+    color: red;
+    font-size: 32px;
+    margin: 10px 0px 0px -10px;
+}
+article .backgroud .khuyenmai {
+    width: 600px;
+    height: 387px;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 70px 150px 0px 0px;
+}
+article .backgroud .khuyenmai h4 {
+    font-size: 24px;
+    text-align: center;
+    width: 150px;
+    color: red;
+    background-color: white;
+    margin: -15px 100px;
+}
+article .backgroud .khuyenmai p {
+    margin: 25px 0px 25px 70px;
+    font-size: 20px;
+}
+article .backgroud .khuyenmai hr {
+    width: 500px;
+    margin: 0px 0px 0px 45px;
+}
+article .backgroud .khuyenmai h3 {
+    margin: 10px 0px 0px 70px;
+    font-size: 24px;
+}
+article .backgroud .khuyenmai .dichvu {
+    margin: 0px 0px 0px 30px;
+}
+article .backgroud .datngay {
+    width: 600px;
+    height: 100px;
+    float: right;
+    border-radius: 10px;
+    background-color: #AE1F1F;
+    display: grid;
+    place-items: center;
+    margin: 30px 150px 10px 0px;
+}
+article .backgroud .datngay:hover {
+    cursor: pointer;
+}
+article .backgroud .datngay h1{
+    font-size: 36px;
+    color: white;
+}
+article .backgroud .datngay p{
+    font-size: 20px;
+    color: white;
+}
+article .backgroud .tragop {
+    width: 300px;
+    height: 100px;
+    clear: both;
+    border-radius: 10px;
+    background-color: #145CC9;
+    display: grid;
+    place-items: center;
+    margin: 0px 0px 0px 590px;
+}
+article .backgroud .tragop:hover {
+    cursor: pointer;
+}
+article .backgroud .tragop h1{
+    font-size: 36px;
+    color: white;
+}
+article .backgroud .tragop p{
+    font-size: 20px;
+    color: white;
+}
+/****************------------------------footer--------------------------****************/
+footer {
+    height: 85px;
+    background-color: #44B4F3;
+}
+footer .fb {
+    font-size: 60px;
+    padding: 5px 10px 0px 50px;
+    float: left;
+    color: white;
+}
+footer .fb:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+footer .phone {
+    font-size: 60px;
+    padding: 5px 200px 0px 0px;
+    float: left;
+    color: white;
+}
+footer .phone:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+footer #p1 {
+    padding-top: 20px;
+}
+footer p {
+    font-size: 12px;
+    color: white;
+}

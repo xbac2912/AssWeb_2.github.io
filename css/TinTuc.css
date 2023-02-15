@@ -8,7 +8,7 @@ body {
 }
 .container {
     max-width: 100%;
-    height: 1700px;
+    height: 2200px;
     margin: 0 auto;
     background-color: white;
 }
@@ -96,117 +96,38 @@ nav ul li a {
     color: white;
     text-transform: capitalize;
 }
+/****************------------------------aside--------------------------****************/
+aside {
+    float: right;
+    width: 30%;
+    height: 1850px;
+    margin: 40px 0px 0px 0px;
+    border-left: 3px solid gray;
+}
 /****************------------------------article--------------------------****************/
 article {
-    height: 1450px;
+    width: 70%;
+    margin: 0 auto;
 }
-article .locgia h5 {
-    font-size: 24px;
-    margin: 45px 0px 21px 136px;
+article h1 {
+    margin: 30px 0px;
 }
-article .locgia input {
-    width: 275px;
-    height: 5px;
-    margin: 0px 0px 10px 117px;
+article img {
+    margin: 0px 30px;
+    width: 513px;
 }
-article .locgia p {
-    margin: 0px 0px 5px 140px;
+article p {
+    margin: 20px 0px 0px -190px;
+    padding: 0px 420px 0px 200px;
 }
-article .locgia button {
-    width: 63px;
-    height: 28px;
-    font-size: 19px;
-    margin: 10px 0px 35px 128px;
-}
-article .spbanchay {
-    width: 300px;
-    height: 60px;
-    border: 1px solid gray;
-    font-size: 25px;
-    padding: 15px;
-    float: right;
-    margin: -150px 160px;
-}
-article .spbanchay p i{
-    margin-left: 10px;
-}
-article .ke1 {
-    clear: both;
-    float: left;
-    width: 540px;
-    margin: 0px 0px 76px 65px;
-    background-color: black;
-    padding-bottom: 2px;
-}
-article .spnoibat {
-    float: left;
-    margin: -8px 0px 0px 25px;
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 900;
-}
-article .ke2 {
-    float: right;
-    margin-right: 73px;
-    width: 540px;
-    background-color: black;
-    padding-bottom: 2px;
-}
-a {
-    text-decoration: none;
-}
-article .items {
-    clear: both;
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-gap: 20px;
-    margin-left: 91px;
-}
-article .items .phone {
-    width: 300px;
-    height: 352px;
-    border: 1px solid gray;
-    text-align: center;
-    transition: .5s; /*thời gian chuyển cảnh*/
-    cursor: pointer;
-    color: black;
-}
-article .items:hover > :not(:hover) {
-    opacity: 1; /* độ mờ */ 
-    transform: scale(0.9); /*hiệu ứng phóng to thu nhỏ*/
-}
-article .items .phone .img1{
-    margin-top: 15px;
-    margin-bottom: 35px;
-}
-article .items .phone .img3{
-    margin-bottom: 20px;
-}
-article .items .phone .brand {
-    color: #A1A1A1;
-    margin-top: -20px;
-    margin-bottom: 0px;
-    font-size: 15px;
-}
-article .items .phone .name {
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-article .items .phone .price {
-    color: red;
-    font-size: 20px;
-}
-article .items .phone .price del {
-    color: #A1A1A1;
-    margin-right: 30px;
-}
-article .capnhatsp{
-    margin: 193px 0px 193px 605px;
-    font-size: 25px;
+article hr {
+    width: 600px;
+    margin: 10px 0px 20px 0px;
 }
 article .page {
     text-align: center;
-    margin: 0px 0px 50px 640px;
+    margin-top: 45px;
+    margin-left: 470px;
 }
 article .page:hover {
     cursor: pointer;
@@ -251,11 +172,12 @@ article .page #page3 {
     font-size: 25px;
     color: #4D4747;
 }
+
 /****************------------------------footer--------------------------****************/
 footer {
-    clear: both;
     height: 85px;
     background-color: #44B4F3;
+    margin-top: 110px;
 }
 footer .fb {
     font-size: 60px;
