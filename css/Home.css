@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.container {
+    max-width: 1440px;
+    height: 1600px;
+    margin: 0 auto;
+    background-color: white;
+}
+header {
+    height: 95px;
+}
+header .logo {
+    float: left;
+    font-size: 25px;
+    margin: 15px 50px;
+}
+header .timkiem {
+    float: left;
+    margin: 23px 70px 0px 100px;
+}
+header .timkiem input {
+    padding-left: 20px;
+    padding-right: 15px;
+    width: 550px;
+    height: 50px;
+}
+header .timkiem button {
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+header .timkiem button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+header .giohang {
+    font-size: 60px;
+    padding: 12px 130px 0px 50px;
+    float: left;
+}
+header .giohang a i{
+    color: black;
+}
+header .username {
+    font-size: 60px;
+    padding: 15px 50px;
+}
+header .username a i{
+    color: black;
+}
+header .username:hover {
+    cursor: pointer; /* con tro ban tay */
+}
+nav {
+    clear: both;
+    background-color: #44B4F3;
+    height: 75px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 25px 70px;
+    transition: .5s;
+}
+nav ul li:hover {
+    transform: scale(1.3);
+}
+nav ul li #home{
+    font-size: 30px;
+    color: black;
+    transition: .5s;
+}
+nav ul li #home:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+nav ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+article .banner {
+    height: 406px;
+    background-image: url(../img/th.jfif);
+    background-size: cover;
+    margin-bottom: 42px;
+}
+article .ke1 {
+    clear: both;
+    float: left;
+    width: 540px;
+    margin-left: 73px;
+    background-color: black;
+    padding-bottom: 2px;
+    margin-bottom: 76px;
+}
+article .spnoibat {
+    float: left;
+    margin: -8px 0px 0px 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 900;
+}
+article .ke2 {
+    float: right;
+    margin-right: 73px;
+    width: 540px;
+    background-color: black;
+    padding-bottom: 2px;
+}
+article .items {
+    clear: both;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 20px;
+    margin-left: 91px;
+}
+article .items .phone {
+    width: 300px;
+    height: 352px;
+    border: 1px solid gray;
+    text-align: center;
+    transition: .5s; /*thời gian chuyển cảnh*/
+    cursor: pointer;
+}
+article .items:hover > :not(:hover) {
+    opacity: 1; /* độ mờ */ 
+    transform: scale(0.9); /*hiệu ứng phóng to thu nhỏ*/
+}
+article .items .phone .img1{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+article .items .phone .brand {
+    color: #A1A1A1;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+article .items .phone .name {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+article .items .phone .price {
+    color: red;
+    font-size: 20px;
+}
+article .items .phone .price del {
+    color: #A1A1A1;
+    margin-right: 30px;
+}
+footer {
+    height: 85px;
+    background-color: #44B4F3;
+    margin-top: 95px;
+}
+footer .fb {
+    font-size: 60px;
+    padding: 5px 10px 0px 50px;
+    float: left;
+    color: white;
+}
+footer .fb:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+footer .phone {
+    font-size: 60px;
+    padding: 5px 200px 0px 0px;
+    float: left;
+    color: white;
+}
+footer .phone:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+footer #p1 {
+    padding-top: 20px;
+}
+footer p {
+    font-size: 12px;
+    color: white;
+}
