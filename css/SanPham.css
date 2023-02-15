@@ -6,6 +6,123 @@
 body {
     background-color: black;
 }
+/****************------------------------login--------------------------****************/
+.login {
+    width: 644px;
+    height: 565px;
+    border-radius: 10px; 
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: white;
+    box-shadow: 0px 0px 17px 2px rgba(2, 2, 2, 1);
+}
+.login h1 {
+    margin: 20px 0px;
+}
+.login input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 20px;
+    width: 570px;
+    height: 62px;
+    margin: 5px 0px;
+    font-size: 24px;
+}
+.login .quenmk {
+    margin: 0px 0px 0px 400px;
+}
+.login .quenmk a{
+    color: gray;
+}
+.login .quenmk a:hover {
+    text-decoration: underline;
+}
+.login button {
+    width: 319px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: white;
+    margin: 10px 0px 0px 0px;
+}
+.login button a {
+    color: black;
+}
+.login hr {
+    margin: 40px;
+}
+.login #hr1 {
+    width: 250px;
+}
+.login #hr2 {
+    float: right;
+    width: 250px;
+}
+.login p {
+    margin: -50px 0px;
+}
+.login .apple {
+    width: 168px;
+    height: 53px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin: 70px 0px 0px 70px;
+}
+.login .apple:hover {
+    cursor: pointer;
+}
+.login .apple i {
+    float: left;
+    margin: 10px 20px 0px 20px;
+    font-size: 30px;
+}
+.login .apple h3 {
+    float: left;
+    margin: 15px 20px 0px 15px;
+}
+.login .google {
+    width: 168px;
+    height: 53px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin: -11px 0px 60px 20px;
+}
+.login .google:hover {
+    cursor: pointer;
+}
+.login .google i {
+    float: left;
+    margin: 15px 20px 0px 20px;
+    font-size: 30px;
+}
+.login .google h3 {
+    float: left;
+    margin: 15px 0px 0px 0px;
+}
+.login .dangky {
+    font-size: 24px;
+    clear: both;
+    margin: 0px 0px 0px -20px;
+} 
+.login .dangky p {
+    float: left;
+    margin: 0px 50px 0px 140px;
+    color: gray;
+}
+.login .dangky a {
+    float: left;
+    color: black;
+}
+.login .dangky a:hover {
+    text-decoration: underline;
+}
+/****************------------------------container--------------------------****************/
 .container {
     max-width: 100%;
     height: 1700px;
@@ -137,7 +254,7 @@ article .ke1 {
 }
 article .spnoibat {
     float: left;
-    margin: -8px 0px 0px 25px;
+    margin: -10px 0px 0px 70px;
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 900;
@@ -157,7 +274,7 @@ article .items {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     grid-gap: 20px;
-    margin-left: 91px;
+    margin-left: 130px;
 }
 article .items .phone {
     width: 300px;
